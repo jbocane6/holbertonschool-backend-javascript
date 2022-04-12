@@ -457,7 +457,7 @@ Modify the following function’s `budget` object to simply use the keyname inst
 
     export default function getBudgetObject(income, gdp, capita) {
       const budget = {
-        --------income: income,
+        income: income,
         gdp: gdp,
         capita: capita,
       };
@@ -496,7 +496,7 @@ Rewrite the `getBudgetForCurrentYear` function to use ES6 computed property name
       const date = new Date();
       return date.getFullYear();
     }
-    --------
+    
     export default function getBudgetForCurrentYear(income, gdp, capita) {
       const budget = {};
     
@@ -538,7 +538,7 @@ Rewrite `getFullBudgetObject` to use ES6 method properties in the `fullBudget` o
     
     export default function getFullBudgetObject(income, gdp, capita) {
       const budget = getBudgetObject(income, gdp, capita);
-      const --------fullBudget = {
+      const fullBudget = {
         ...budget,
         getIncomeInDollars: function (income) {
           return `$${income}`;
@@ -586,7 +586,7 @@ Rewrite the function `appendToEachArrayValue` to use ES6’s `for...of` operator
       for (var idx in array) {
         var value = array[idx];
         array[idx] = appendString + value;
-      }--------
+      }
     
       return array;
     }
@@ -601,7 +601,7 @@ Execution:
     
     bob@dylan:~$
     bob@dylan:~$ npm run dev 10-main.js 
-    [ 'correctly-appended', 'correctly-fixed', 'correctly-displayed' ]--------
+    [ 'correctly-appended', 'correctly-fixed', 'correctly-displayed' ]
     bob@dylan:~$
     
 
@@ -622,7 +622,7 @@ Write a function named `createEmployeesObject` that will receive two arguments:
 *   `employees` (Array of Strings)
 
 Code:
---------
+
     export default function createEmployeesObject(departmentName, employees) {
     
     }
@@ -666,7 +666,7 @@ Write a function named `createReportObject` whose parameter, `employeesList`, is
     export default function createReportObject(employeesList) {
     
     }
-    --------
+    
 
 `createReportObject` should return an object containing the key `allEmployees` and a method property called `getNumberOfDepartments`.
 
@@ -676,7 +676,7 @@ The method property receives `employeesList` and returns the number of departmen
 
     {
       allEmployees: {
-        -------- engineering: [
+         engineering: [
               'John Doe',
               'Guillaume Salva',
          ],
@@ -722,7 +722,7 @@ Write a function named `createIteratorObject`, that will take into argument a re
 This function will return an iterator to go through every employee in every department.
 
     export default function createIteratorObject(report) {
-    --------
+    
     }
     
 
@@ -734,7 +734,7 @@ Execution:
     import createEmployeesObject from './11-createEmployeesObject.js';
     import createReportObject from './12-createReportObject.js';
     
-    const employ--------ees = {
+    const employees = {
         ...createEmployeesObject('engineering', ['Bob', 'Jane']),
         ...createEmployeesObject('marketing', ['Sylvie'])
     };
@@ -771,7 +771,7 @@ Finally, write a function named `iterateThroughObject`. The function’s paramet
      export default function iterateThroughObject(reportWithIterator) {
     
      }
-    --------
+    
 
 It should return every employee name in a string, separated by `|`
 
@@ -783,7 +783,7 @@ It should return every employee name in a string, separated by `|`
          ],
       },
       ...
-    };--------
+    };
     
 
 Should return `John Doe | Guillaume Salva`

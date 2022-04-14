@@ -206,9 +206,9 @@ Return a Promise using this prototype `function getResponseFromAPI()`
 
 **Repo:**
 
-*   GitHub repository: `holbertonschool-backend-javascript`
-*   Directory: `0x01-ES6_promise`
-*   File: `0-promise.js`
+*   GitHub repository: [`holbertonschool-backend-javascript`](https://github.com/jbocane6/holbertonschool-backend-javascript)
+*   Directory: [`0x01-ES6_promise`](https://github.com/jbocane6/holbertonschool-backend-javascript/tree/master/0x01-ES6_promise)
+*   File: [`0-promise.js`](https://github.com/jbocane6/holbertonschool-backend-javascript/blob/master/0x01-ES6_promise/0-promise.js)
 
 -----
 ### 1\. Don't make a promise...if you know you can't keep it
@@ -249,9 +249,9 @@ Try testing it out for yourself
 
 **Repo:**
 
-*   GitHub repository: `holbertonschool-backend-javascript`
-*   Directory: `0x01-ES6_promise`
-*   File: `1-promise.js`
+*   GitHub repository: [`holbertonschool-backend-javascript`](https://github.com/jbocane6/holbertonschool-backend-javascript)
+*   Directory: [`0x01-ES6_promise`](https://github.com/jbocane6/holbertonschool-backend-javascript/tree/master/0x01-ES6_promise)
+*   File: [`1-promise.js`](https://github.com/jbocane6/holbertonschool-backend-javascript/blob/master/0x01-ES6_promise/1-promise.js)
 
 -----
 ### 2\. Catch me if you can!
@@ -287,9 +287,9 @@ Testing:
 
 **Repo:**
 
-*   GitHub repository: `holbertonschool-backend-javascript`
-*   Directory: `0x01-ES6_promise`
-*   File: `2-then.js`
+*   GitHub repository: [`holbertonschool-backend-javascript`](https://github.com/jbocane6/holbertonschool-backend-javascript)
+*   Directory: [`0x01-ES6_promise`](https://github.com/jbocane6/holbertonschool-backend-javascript/tree/master/0x01-ES6_promise)
+*   File: [`2-then.js`](https://github.com/jbocane6/holbertonschool-backend-javascript/blob/master/0x01-ES6_promise/2-then.js)
 
 -----
 
@@ -319,9 +319,9 @@ In the event of an error, log `Signup system offline` to the console
 
 **Repo:**
 
-*   GitHub repository: `holbertonschool-backend-javascript`
-*   Directory: `0x01-ES6_promise`
-*   File: `3-all.js`
+*   GitHub repository: [`holbertonschool-backend-javascript`](https://github.com/jbocane6/holbertonschool-backend-javascript)
+*   Directory: [`0x01-ES6_promise`](https://github.com/jbocane6/holbertonschool-backend-javascript/tree/master/0x01-ES6_promise)
+*   File: [`3-all.js`](https://github.com/jbocane6/holbertonschool-backend-javascript/blob/master/0x01-ES6_promise/3-all.js)
 
 -----
 ### 4\. Simple promise
@@ -355,9 +355,9 @@ That returns a resolved promise with this object:
 
 **Repo:**
 
-*   GitHub repository: `holbertonschool-backend-javascript`
-*   Directory: `0x01-ES6_promise`
-*   File: `4-user-promise.js`
+*   GitHub repository: [`holbertonschool-backend-javascript`](https://github.com/jbocane6/holbertonschool-backend-javascript)
+*   Directory: [`0x01-ES6_promise`](https://github.com/jbocane6/holbertonschool-backend-javascript/tree/master/0x01-ES6_promise)
+*   File: [`4-user-promise.js`](https://github.com/jbocane6/holbertonschool-backend-javascript/blob/master/0x01-ES6_promise/4-user-promise.js)
 
 -----
 ### 5\. Reject the promises
@@ -389,9 +389,9 @@ The function should return a Promise rejecting with an Error and the string `$fi
 
 **Repo:**
 
-*   GitHub repository: `holbertonschool-backend-javascript`
-*   Directory: `0x01-ES6_promise`
-*   File: `5-photo-reject.js`
+*   GitHub repository: [`holbertonschool-backend-javascript`](https://github.com/jbocane6/holbertonschool-backend-javascript)
+*   Directory: [`0x01-ES6_promise`](https://github.com/jbocane6/holbertonschool-backend-javascript/tree/master/0x01-ES6_promise)
+*   File: [`5-photo-reject.js`](https://github.com/jbocane6/holbertonschool-backend-javascript/blob/master/0x01-ES6_promise/4-user-promise.js)
 
 -----
 ### 6\. Handle multiple promises
@@ -424,9 +424,9 @@ Write and export a function named `handleProfileSignup`. It should accept three 
 
 **Repo:**
 
-*   GitHub repository: `holbertonschool-backend-javascript`
-*   Directory: `0x01-ES6_promise`
-*   File: `6-final-user.js`
+*   GitHub repository: [`holbertonschool-backend-javascript`](https://github.com/jbocane6/holbertonschool-backend-javascript)
+*   Directory: [`0x01-ES6_promise`](https://github.com/jbocane6/holbertonschool-backend-javascript/tree/master/0x01-ES6_promise)
+*   File: [`6-final-user.js`](https://github.com/jbocane6/holbertonschool-backend-javascript/blob/master/0x01-ES6_promise/6-final-user.js)
 
 -----
 ### 7\. Load balancer
@@ -476,9 +476,9 @@ The function should return the value returned by the promise that resolved the f
 
 **Repo:**
 
-*   GitHub repository: `holbertonschool-backend-javascript`
-*   Directory: `0x01-ES6_promise`
-*   File: `7-load_balancer.js`
+*   GitHub repository: [`holbertonschool-backend-javascript`](https://github.com/jbocane6/holbertonschool-backend-javascript)
+*   Directory: [`0x01-ES6_promise`](https://github.com/jbocane6/holbertonschool-backend-javascript/tree/master/0x01-ES6_promise)
+*   File: [`7-load_balancer.js`](https://github.com/jbocane6/holbertonschool-backend-javascript/blob/master/0x01-ES6_promise/6-final-user.js)
 
 -----
 ### 8\. Throw error / try catch
@@ -513,9 +513,9 @@ When the `denominator` argument is equal to 0, the function should throw a new e
 
 **Repo:**
 
-*   GitHub repository: `holbertonschool-backend-javascript`
-*   Directory: `0x01-ES6_promise`
-*   File: `8-try.js`
+*   GitHub repository: [`holbertonschool-backend-javascript`](https://github.com/jbocane6/holbertonschool-backend-javascript)
+*   Directory: [`0x01-ES6_promise`](https://github.com/jbocane6/holbertonschool-backend-javascript/tree/master/0x01-ES6_promise)
+*   File: [`8-try.js`](https://github.com/jbocane6/holbertonschool-backend-javascript/blob/master/0x01-ES6_promise/6-final-user.js)
 
 -----
 ### 9\. Throw an error
@@ -552,9 +552,9 @@ Example:
 
 **Repo:**
 
-*   GitHub repository: `holbertonschool-backend-javascript`
-*   Directory: `0x01-ES6_promise`
-*   File: `9-try.js`
+*   GitHub repository: [`holbertonschool-backend-javascript`](https://github.com/jbocane6/holbertonschool-backend-javascript)
+*   Directory: [`0x01-ES6_promise`](https://github.com/jbocane6/holbertonschool-backend-javascript/tree/master/0x01-ES6_promise)
+*   File: [`9-try.js`](https://github.com/jbocane6/holbertonschool-backend-javascript/blob/master/0x01-ES6_promise/6-final-user.js)
 
 -----
 ### 10\. Await / Async
@@ -600,9 +600,9 @@ If one of the async function fails, return an empty object. Example:
 
 **Repo:**
 
-*   GitHub repository: `holbertonschool-backend-javascript`
-*   Directory: `0x01-ES6_promise`
-*   File: `100-await.js`
+*   GitHub repository: [`holbertonschool-backend-javascript`](https://github.com/jbocane6/holbertonschool-backend-javascript)
+*   Directory: [`0x01-ES6_promise`](https://github.com/jbocane6/holbertonschool-backend-javascript/tree/master/0x01-ES6_promise)
+*   File: [`100-await.js`]()
 
 -----
 Copyright © 2022 Holberton Inc, All rights reserved.

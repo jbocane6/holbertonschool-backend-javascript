@@ -391,7 +391,7 @@ The function should return a Promise rejecting with an Error and the string `$fi
 
 *   GitHub repository: [`holbertonschool-backend-javascript`](https://github.com/jbocane6/holbertonschool-backend-javascript)
 *   Directory: [`0x01-ES6_promise`](https://github.com/jbocane6/holbertonschool-backend-javascript/tree/master/0x01-ES6_promise)
-*   File: [`5-photo-reject.js`](https://github.com/jbocane6/holbertonschool-backend-javascript/blob/master/0x01-ES6_promise/4-user-promise.js)
+*   File: [`5-photo-reject.js`](https://github.com/jbocane6/holbertonschool-backend-javascript/blob/master/0x01-ES6_promise/5-photo-reject.js)
 
 -----
 ### 6\. Handle multiple promises
@@ -478,7 +478,7 @@ The function should return the value returned by the promise that resolved the f
 
 *   GitHub repository: [`holbertonschool-backend-javascript`](https://github.com/jbocane6/holbertonschool-backend-javascript)
 *   Directory: [`0x01-ES6_promise`](https://github.com/jbocane6/holbertonschool-backend-javascript/tree/master/0x01-ES6_promise)
-*   File: [`7-load_balancer.js`](https://github.com/jbocane6/holbertonschool-backend-javascript/blob/master/0x01-ES6_promise/6-final-user.js)
+*   File: [`7-load_balancer.js`](https://github.com/jbocane6/holbertonschool-backend-javascript/blob/master/0x01-ES6_promise/7-load_balancer.js)
 
 -----
 ### 8\. Throw error / try catch
@@ -515,7 +515,7 @@ When the `denominator` argument is equal to 0, the function should throw a new e
 
 *   GitHub repository: [`holbertonschool-backend-javascript`](https://github.com/jbocane6/holbertonschool-backend-javascript)
 *   Directory: [`0x01-ES6_promise`](https://github.com/jbocane6/holbertonschool-backend-javascript/tree/master/0x01-ES6_promise)
-*   File: [`8-try.js`](https://github.com/jbocane6/holbertonschool-backend-javascript/blob/master/0x01-ES6_promise/6-final-user.js)
+*   File: [`8-try.js`](https://github.com/jbocane6/holbertonschool-backend-javascript/blob/master/0x01-ES6_promise/8-try.js)
 
 -----
 ### 9\. Throw an error
@@ -554,7 +554,7 @@ Example:
 
 *   GitHub repository: [`holbertonschool-backend-javascript`](https://github.com/jbocane6/holbertonschool-backend-javascript)
 *   Directory: [`0x01-ES6_promise`](https://github.com/jbocane6/holbertonschool-backend-javascript/tree/master/0x01-ES6_promise)
-*   File: [`9-try.js`](https://github.com/jbocane6/holbertonschool-backend-javascript/blob/master/0x01-ES6_promise/6-final-user.js)
+*   File: [`9-try.js`](https://github.com/jbocane6/holbertonschool-backend-javascript/blob/master/0x01-ES6_promise/9-try.js)
 
 -----
 ### 10\. Await / Async
@@ -602,7 +602,7 @@ If one of the async function fails, return an empty object. Example:
 
 *   GitHub repository: [`holbertonschool-backend-javascript`](https://github.com/jbocane6/holbertonschool-backend-javascript)
 *   Directory: [`0x01-ES6_promise`](https://github.com/jbocane6/holbertonschool-backend-javascript/tree/master/0x01-ES6_promise)
-*   File: [`100-await.js`]()
+*   File: [`100-await.js`](https://github.com/jbocane6/holbertonschool-backend-javascript/blob/master/0x01-ES6_promise/100-await.js)
 
 -----
 Copyright © 2022 Holberton Inc, All rights reserved.

@@ -202,15 +202,15 @@ Code:
 
 Execution example:
 
-    bob@dylan:~$ cat 0-main.js
+    camilo@home-laptop:~$ cat 0-main.js
     import { taskFirst, taskNext } from './0-constants.js';
     
     console.log(`${taskFirst()} ${taskNext()}`);
     
-    bob@dylan:~$ 
-    bob@dylan:~$ npm run dev 0-main.js 
+    camilo@home-laptop:~$ 
+    camilo@home-laptop:~$ npm run dev 0-main.js 
     I prefer const when I can. But sometimes let is okay
-    bob@dylan:~$ 
+    camilo@home-laptop:~$ 
     
 
 **Repo:**
@@ -243,16 +243,16 @@ Given what you’ve read about `var` and hoisting, modify the variables inside t
 
 Execution:
 
-    bob@dylan:~$ cat 1-main.js
+    camilo@home-laptop:~$ cat 1-main.js
     import taskBlock from './1-block-scoped.js';
     
     console.log(taskBlock(true));
     console.log(taskBlock(false));
-    bob@dylan:~$
-    bob@dylan:~$ npm run dev 1-main.js 
+    camilo@home-laptop:~$
+    camilo@home-laptop:~$ npm run dev 1-main.js 
     [ false, true ]
     [ false, true ]
-    bob@dylan:~$
+    camilo@home-laptop:~$
     
 
 **Repo:**
@@ -281,16 +281,16 @@ Rewrite the following standard function to use ES6’s arrow syntax of the funct
 
 Execution:
 
-    bob@dylan:~$ cat 2-main.js
+    camilo@home-laptop:~$ cat 2-main.js
     import getNeighborhoodsList from './2-arrow.js';
     
     const neighborhoodsList = new getNeighborhoodsList();
     const res = neighborhoodsList.addNeighborhood('Noe Valley');
     console.log(res);
-    bob@dylan:~$
-    bob@dylan:~$ npm run dev 2-main.js 
+    camilo@home-laptop:~$
+    camilo@home-laptop:~$ npm run dev 2-main.js 
     [ 'SOMA', 'Union Square', 'Noe Valley' ]
-    bob@dylan:~$
+    camilo@home-laptop:~$
     
 
 **Repo:**
@@ -322,18 +322,18 @@ _Hint:_ The key here to define default parameter values for the function paramet
 
 Execution:
 
-    bob@dylan:~$ cat 3-main.js
+    camilo@home-laptop:~$ cat 3-main.js
     import getSumOfHoods from './3-default-parameter.js';
     
     console.log(getSumOfHoods(34));
     console.log(getSumOfHoods(34, 3));
     console.log(getSumOfHoods(34, 3, 4));
-    bob@dylan:~$
-    bob@dylan:~$ npm run dev 3-main.js 
+    camilo@home-laptop:~$
+    camilo@home-laptop:~$ npm run dev 3-main.js 
     142
     56
     41
-    bob@dylan:~$
+    camilo@home-laptop:~$
     
 
 **Repo:**
@@ -361,16 +361,16 @@ Example:
     
 Execution:
 
-    bob@dylan:~$ cat 4-main.js
+    camilo@home-laptop:~$ cat 4-main.js
     import returnHowManyArguments from './4-rest-parameter.js';
     
     console.log(returnHowManyArguments("one"));
     console.log(returnHowManyArguments("one", "two", 3, "4th"));
-    bob@dylan:~$
-    bob@dylan:~$ npm run dev 4-main.js 
+    camilo@home-laptop:~$
+    camilo@home-laptop:~$ npm run dev 4-main.js 
     1
     4
-    bob@dylan:~$
+    camilo@home-laptop:~$
 
 --------
 ### 5\. The wonders of spread syntax
@@ -385,19 +385,19 @@ Using spread syntax, concatenate 2 arrays and each character of a string by modi
 
 Execution:
 
-    bob@dylan:~$ cat 5-main.js
+    camilo@home-laptop:~$ cat 5-main.js
     import concatArrays from './5-spread-operator.js';
     
     console.log(concatArrays(['a', 'b'], ['c', 'd'], 'Hello'));
     
-    bob@dylan:~$
-    bob@dylan:~$ npm run dev 5-main.js 
+    camilo@home-laptop:~$
+    camilo@home-laptop:~$ npm run dev 5-main.js 
     [
       'a', 'b', 'c',
       'd', 'H', 'e',
       'l', 'l', 'o'
     ]
-    bob@dylan:~$
+    camilo@home-laptop:~$
     
 
 **Repo:**
@@ -429,15 +429,15 @@ Rewrite the return statement to use a template literal so you can the substitute
 
 Execution:
 
-    bob@dylan:~$ cat 6-main.js
+    camilo@home-laptop:~$ cat 6-main.js
     import getSanFranciscoDescription from './6-string-interpolation.js';
     
     console.log(getSanFranciscoDescription());
     
-    bob@dylan:~$
-    bob@dylan:~$ npm run dev 6-main.js 
+    camilo@home-laptop:~$
+    camilo@home-laptop:~$ npm run dev 6-main.js 
     As of 2017, it was the seventh-highest income county in the United States, with a per capita personal income of $119,868. As of 2015, San Francisco proper had a GDP of $154.2 billion, and a GDP per capita of $178,479.
-    bob@dylan:~$
+    camilo@home-laptop:~$
     
 
 **Repo:**
@@ -468,15 +468,15 @@ Modify the following function’s `budget` object to simply use the keyname inst
 
 Execution:
 
-    bob@dylan:~$ cat 7-main.js
+    camilo@home-laptop:~$ cat 7-main.js
     import getBudgetObject from './7-getBudgetObject.js';
     
     console.log(getBudgetObject(400, 700, 900));
     
-    bob@dylan:~$
-    bob@dylan:~$ npm run dev 7-main.js 
+    camilo@home-laptop:~$
+    camilo@home-laptop:~$ npm run dev 7-main.js 
     { income: 400, gdp: 700, capita: 900 }
-    bob@dylan:~$
+    camilo@home-laptop:~$
     
 
 **Repo:**
@@ -510,15 +510,15 @@ Rewrite the `getBudgetForCurrentYear` function to use ES6 computed property name
 
 Execution:
 
-    bob@dylan:~$ cat 8-main.js
+    camilo@home-laptop:~$ cat 8-main.js
     import getBudgetForCurrentYear from './8-getBudgetCurrentYear.js';
     
     console.log(getBudgetForCurrentYear(2100, 5200, 1090));
     
-    bob@dylan:~$
-    bob@dylan:~$ npm run dev 8-main.js 
+    camilo@home-laptop:~$
+    camilo@home-laptop:~$ npm run dev 8-main.js 
     { 'income-2021': 2100, 'gdp-2021': 5200, 'capita-2021': 1090 }
-    bob@dylan:~$
+    camilo@home-laptop:~$
     
 
 **Repo:**
@@ -554,7 +554,7 @@ Rewrite `getFullBudgetObject` to use ES6 method properties in the `fullBudget` o
 
 Execution:
 
-    bob@dylan:~$ cat 9-main.js
+    camilo@home-laptop:~$ cat 9-main.js
     import getFullBudgetObject from './9-getFullBudget.js';
     
     const fullBudget = getFullBudgetObject(20, 50, 10);
@@ -562,11 +562,11 @@ Execution:
     console.log(fullBudget.getIncomeInDollars(fullBudget.income));
     console.log(fullBudget.getIncomeInEuros(fullBudget.income));
     
-    bob@dylan:~$
-    bob@dylan:~$ npm run dev 9-main.js 
+    camilo@home-laptop:~$
+    camilo@home-laptop:~$ npm run dev 9-main.js 
     $20
     20 euros
-    bob@dylan:~$
+    camilo@home-laptop:~$
     
 
 **Repo:**
@@ -594,15 +594,15 @@ Rewrite the function `appendToEachArrayValue` to use ES6’s `for...of` operator
 
 Execution:
 
-    bob@dylan:~$ cat 10-main.js
+    camilo@home-laptop:~$ cat 10-main.js
     import appendToEachArrayValue from './10-loops.js';
     
     console.log(appendToEachArrayValue(['appended', 'fixed', 'displayed'], 'correctly-'));
     
-    bob@dylan:~$
-    bob@dylan:~$ npm run dev 10-main.js 
+    camilo@home-laptop:~$
+    camilo@home-laptop:~$ npm run dev 10-main.js 
     [ 'correctly-appended', 'correctly-fixed', 'correctly-displayed' ]
-    bob@dylan:~$
+    camilo@home-laptop:~$
     
 
 **Repo:**
@@ -639,15 +639,15 @@ The function should return an object with the following format:
 
 Execution:
 
-    bob@dylan:~$ cat 11-main.js
+    camilo@home-laptop:~$ cat 11-main.js
     import createEmployeesObject from './11-createEmployeesObject.js';
     
     console.log(createEmployeesObject("Software", [ "Bob", "Sylvie" ]));
     
-    bob@dylan:~$
-    bob@dylan:~$ npm run dev 11-main.js 
+    camilo@home-laptop:~$
+    camilo@home-laptop:~$ npm run dev 11-main.js 
     { Software: [ 'Bob', 'Sylvie' ] }
-    bob@dylan:~$
+    camilo@home-laptop:~$
     
 
 **Repo:**
@@ -686,7 +686,7 @@ The method property receives `employeesList` and returns the number of departmen
 
 Execution:
 
-    bob@dylan:~$ cat 12-main.js
+    camilo@home-laptop:~$ cat 12-main.js
     import createEmployeesObject from './11-createEmployeesObject.js';
     import createReportObject from './12-createReportObject.js';
     
@@ -699,11 +699,11 @@ Execution:
     console.log(report.allEmployees);
     console.log(report.getNumberOfDepartments(report.allEmployees));
     
-    bob@dylan:~$
-    bob@dylan:~$ npm run dev 12-main.js 
+    camilo@home-laptop:~$
+    camilo@home-laptop:~$ npm run dev 12-main.js 
     { engineering: [ 'Bob', 'Jane' ], marketing: [ 'Sylvie' ] }
     2
-    bob@dylan:~$
+    camilo@home-laptop:~$
     
 
 **Repo:**
@@ -728,7 +728,7 @@ This function will return an iterator to go through every employee in every depa
 
 Execution:
 
-    bob@dylan:~$ cat 100-main.js
+    camilo@home-laptop:~$ cat 100-main.js
     import createIteratorObject from "./100-createIteratorObject.js";
     
     import createEmployeesObject from './11-createEmployeesObject.js';
@@ -747,12 +747,12 @@ Execution:
         console.log(item);
     }
     
-    bob@dylan:~$
-    bob@dylan:~$ npm run dev 100-main.js 
+    camilo@home-laptop:~$
+    camilo@home-laptop:~$ npm run dev 100-main.js 
     Bob
     Jane
     Sylvie
-    bob@dylan:~$
+    camilo@home-laptop:~$
     
 
 **Repo:**
@@ -806,7 +806,7 @@ Full example:
 
 Execution:
 
-    bob@dylan:~$ cat 101-main.js
+    camilo@home-laptop:~$ cat 101-main.js
     import createEmployeesObject from "./11-createEmployeesObject.js";
     import createReportObject from './12-createReportObject.js';
     import createIteratorObject from './100-createIteratorObject.js';
@@ -823,10 +823,10 @@ Execution:
     
     console.log(iterateThroughObject(reportWithIterator));
     
-    bob@dylan:~$
-    bob@dylan:~$ npm run dev 101-main.js 
+    camilo@home-laptop:~$
+    camilo@home-laptop:~$ npm run dev 101-main.js 
     Bob | Jane | Sylvie
-    bob@dylan:~$
+    camilo@home-laptop:~$
     
 
 **Repo:**

@@ -7,5 +7,6 @@ export default function cleanSet(set, startString) {
       value += value.length === 0 ? element.replace(startString, '') : element.replace(startString, '-');
     }
   }
+  console.log(value.length)
   return value;
 }

@@ -1,5 +1,3 @@
-const fs = require('fs');
-
 /* Using the database database.csv,
   create a function countStudents in the file 2-read_file.js
     Create a function named countStudents. It should accept a path in argument
@@ -15,14 +13,16 @@ const fs = require('fs');
     and they are not a valid student!
  */
 
+const fs = require('fs');
+
 const countStudents = (database) => {
   try {
     const data = fs.readFileSync(database, 'utf8');
 
-    const students_count = data.trim().split('\n').slice(1);
-    console.log(`Number of students: ${students_count.length}`);
+    const studentsCount = data.trim().split('\n').slice(1);
+    console.log(`Number of students: ${studentsCount.length}`);
 
-    const students = students_count.map((student) => {
+    const students = studentsCount.map((student) => {
       const fields = student.replace('\r', '').split(',');
       return fields;
     });

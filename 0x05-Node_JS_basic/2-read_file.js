@@ -1,3 +1,5 @@
+const fs = require('fs');
+
 /* Using the database database.csv,
   create a function countStudents in the file 2-read_file.js
     Create a function named countStudents. It should accept a path in argument
@@ -12,8 +14,6 @@
     CSV file can contain empty lines (at the end)
     and they are not a valid student!
  */
-
-const fs = require('fs');
 
 const countStudents = (database) => {
   try {
